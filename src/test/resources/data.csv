@@ -1,0 +1,32 @@
+# This is a comment line.
+# Lines starting with a hash are ignored.
+
+# Format of this file {input},{expected result}
+#-----------------------------------------------
+
+# divisible by 3
+3,Fizz
+6,Fizz
+9,Fizz
+12,Fizz
+#-----------------------------------------------
+
+#  divisible by 5
+5,Buzz
+10,Buzz
+20,Buzz
+25,Buzz
+#-----------------------------------------------
+
+#  divisible by 3 and 5
+15,FizzBuzz
+30,FizzBuzz
+#-----------------------------------------------
+
+#  NOT divisible by 3 or 5
+1,1
+2,2
+4,4
+7,7
+8,8
+#-----------------------------------------------
